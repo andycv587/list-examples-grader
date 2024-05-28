@@ -22,7 +22,7 @@ public class TestListExamples {
   public void TestFilterExample(){
     IsMoon im=new IsMoon();
     List<String> ls= Arrays.asList("moon","Sun", "asdf", "asdfsdf");
-    List<String> lst=ListExamples.filter(im, ls);
+    List<String> lst=ListExamples.filter(im,ls);
     List<String> expected = Arrays.asList("moon");
     assertEquals(expected, lst);
   }
